@@ -19,15 +19,15 @@ namespace menu // Note: actual namespace depends on the project name.
         }
         static void WriteMinus(int a, int b)
         {
-
+            Console.WriteLine(a - b);
         }
         static void WriteMul(int a, int b)
         {
-
+            Console.WriteLine(a * b);
         }
         static void WriteDiv(int a, int b)
         {
-
+            Console.WriteLine(a / b);
         }
         static void Main(string[] args)
         {
