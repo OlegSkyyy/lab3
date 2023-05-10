@@ -7,15 +7,15 @@ namespace menu // Note: actual namespace depends on the project name.
     {
         static void InputA(ref int a)
         {
-
+            a = Convert.ToInt32(Console.ReadLine());
         }
         static void InputB(ref int b)
         {
-
+            b = Convert.ToInt32(Console.ReadLine());
         }
         static void WritePlus(int a, int b)
         {
-
+            Console.WriteLine(a + b);
         }
         static void WriteMinus(int a, int b)
         {
